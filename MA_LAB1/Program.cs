@@ -9,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
+
+
+
 builder.Services.AddDbContext<TruckRouteDBContext>(opt =>
 			opt.UseSqlServer(builder.Configuration["ConnectionStrings:TruckRouteConn"]));
 builder.Services.AddScoped<IAccountRepository, RepositoryAccount>();
