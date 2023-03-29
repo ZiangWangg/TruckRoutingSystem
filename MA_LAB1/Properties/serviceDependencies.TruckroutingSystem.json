@@ -2,10 +2,9 @@
   "dependencies": {
     "mssql1": {
       "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/truckroutingdbserver/databases/TruckRouting_db",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/truckroutingdbserver/databases/TruckRouting_db",
       "type": "mssql.azure",
-      "connectionId": "ConnectionStrings:TruckRouteConn",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:TruckRouteConn"
     }
   }
 }
